@@ -1,0 +1,38 @@
+.column {
+  max-width: 300px;
+
+  padding: 10px;
+
+  border-radius: 4px;
+}
+
+.column-title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.column-cards-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.column__blue {
+  background-color: #59b4d1;
+}
+
+.column__orange {
+  background-color: #d0935a;
+}
+
+.column__purple {
+  background-color: #945ad1;
+}
+
+.column__green {
+  background-color: #59d090;
+}
