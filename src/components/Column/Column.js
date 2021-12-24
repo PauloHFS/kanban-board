@@ -1,11 +1,11 @@
-import './Column.css';
+import "./Column.css";
 
-const Column = props => {
+const Column = (props) => {
   const {
     icon,
     title,
-    backgroundColor = 'blue',
-    textColor = 'white',
+    backgroundColor = "blue",
+    textColor = "white",
     children,
   } = props;
   return (
