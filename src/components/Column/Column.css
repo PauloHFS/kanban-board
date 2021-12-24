@@ -8,7 +8,14 @@
   border-radius: 4px;
 }
 
-.column-title {
+.column-header {
+  display: flex;
+  align-items: stretch;
+}
+
+.column-header-title {
+  margin-left: 10px;
+
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
