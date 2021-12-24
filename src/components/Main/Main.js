@@ -1,7 +1,7 @@
 import "./Main.css";
 
 const Main = (props) => {
-  const { children } = props;
+  const { children, title } = props;
   return (
     <main className="bg">
       <div className="bg-image">
@@ -229,8 +229,9 @@ const Main = (props) => {
         </svg>
       </div>
       <div className="bg-title">
-        <h1>{children}</h1>
+        <h1>{title}</h1>
       </div>
+      <section className="content">{children}</section>
     </main>
   );
 };
