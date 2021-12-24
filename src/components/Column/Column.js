@@ -10,7 +10,7 @@ const Column = props => {
   } = props;
   return (
     <section
-      className={`column column__background__${backgroundColor} column__text_${textColor}`}
+      className={`column column__background__${backgroundColor} column__text__${textColor}`}
     >
       <header className="column-title">
         {icon} {title}
