@@ -1,6 +1,8 @@
 .column {
   max-width: 300px;
 
+  height: fit-content;
+
   padding: 10px;
 
   border-radius: 4px;
@@ -21,18 +23,22 @@
 
 .column__background__blue {
   background-color: #59b4d1;
+  border-top: 5px solid hsl(194, 57%, 48%);
 }
 
 .column__background__orange {
   background-color: #d0935a;
+  border-top: 5px solid hsl(29, 56%, 48%);
 }
 
 .column__background__purple {
   background-color: #945ad1;
+  border-top: 5px solid hsl(269, 56%, 49%);
 }
 
 .column__background__green {
   background-color: #59d090;
+  border-top: 5px solid hsl(148, 56%, 48%);
 }
 
 .column__text__white {
