@@ -11,8 +11,6 @@
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
-
-  color: #ffffff;
 }
 
 .column-cards-group {
@@ -21,18 +19,26 @@
   flex-wrap: nowrap;
 }
 
-.column__blue {
+.column__background__blue {
   background-color: #59b4d1;
 }
 
-.column__orange {
+.column__background__orange {
   background-color: #d0935a;
 }
 
-.column__purple {
+.column__background__purple {
   background-color: #945ad1;
 }
 
-.column__green {
+.column__background__green {
   background-color: #59d090;
+}
+
+.column__text__white {
+  color: #ffffff;
+}
+
+.column__text__black {
+  color: #171717;
 }
